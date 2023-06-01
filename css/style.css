@@ -53,19 +53,19 @@ html {
       .split__image {
         height: 50vh; } }
     .split__image--first {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/utólagosfalszig_2.jpg");
+      background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/utólagosfalszig_2.jpg");
       background-position: center;
       background-size: cover; }
     .split__image--second {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/tető_2.jpg");
+      background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/tető_2.jpg");
       background-size: cover;
       background-position: center; }
     .split__image--third {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/építő_1.jpg");
+      background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/építő_1.jpg");
       background-size: cover;
       background-position: center; }
     .split__image--fourth {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/hőszig_1.jpg");
+      background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/hőszig_1.jpg");
       background-size: cover;
       background-position: center; }
   .split__button {
@@ -79,13 +79,15 @@ html {
     text-align: center;
     font-size: 3rem;
     font-weight: 200;
-    color: rgba(211, 211, 211, 0.8);
+    color: rgba(255, 255, 255, 0.9);
     text-decoration: none;
     text-transform: uppercase;
-    transition: all 0.3s; }
+    transition: all 0.3s; 
+    text-shadow: 2px 2px #000000;
+  }
     .split__button:hover {
       color: lightgray;
-      border-bottom: 1px solid rgba(211, 211, 211, 0.8); }
+      border-bottom: 1px solid rgba(255, 255, 255, 0.9); }
     @media only screen and (max-width: 1020px) {
       .split__button {
         font-size: 2.4rem; } }
